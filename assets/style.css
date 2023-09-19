@@ -1,0 +1,37 @@
+/* * {
+    border: 1px solid red;
+} */
+
+body {
+    background-color: #eee;
+    margin: 0;
+}
+
+.container {
+    max-width: 650px;
+    /* min-height: calc(100vh - 50px); */
+    min-height: 100vh;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+    /**
+    255 == FF
+    AAA
+    666
+    999
+    */
+    /* background-color: #00F;     */
+    background-color: #fff; /* white */
+    /* background-color: rgba(255, 255, 255, 1); */
+}
+
+img {
+    display: block;
+    max-width: 100%;
+
+    /* opacity: 0.5; */
+
+    margin: 0 auto;
+}
