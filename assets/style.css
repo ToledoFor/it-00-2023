@@ -67,3 +67,27 @@ p {
 
     line-height: 32px;
 }
+
+.social-link {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-link:last-child {
+    margin-right: 0;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+
+    fill: rgb(161, 119, 201);  
+    
+    transition: fill ease .5s;
+    /* cubic-bezier(.78,.1,.88,.16) */
+}
+
+.social-icon:hover {
+    fill: rgb(78, 163, 78);
+}
